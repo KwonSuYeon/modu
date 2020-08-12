@@ -129,7 +129,7 @@ $(function(){
 		$.ajax("../ajax/checkemail.do?email="+email,{
 			success:function(data){
 				if(data==1){
-					alert(data);
+					
 					$('#checkBoxEmail').text('가입되어있는 이메일입니다.')
 				}else{
 					$('#checkBoxEmail').text('사용가능한 이메일입니다.')
